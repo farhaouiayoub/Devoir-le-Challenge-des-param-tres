@@ -9,7 +9,7 @@ Ce projet a pour but de tester combien de paramètres une fonction peut accepter
 ## Résultats
 Après avoir exécuté le programme, j'ai observé les résultats suivants :
 
-- **Nombre de paramètres acceptés**: 10000
+- **Nombre de paramètres acceptés**: 10000...
 - **Erreur rencontrée**: 0
 - **Moment de l'erreur**: 0.
 
