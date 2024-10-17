@@ -20,19 +20,19 @@ Le programme a été exécuté avec une fonction variadique qui accepte un nombr
 J'ai exécuté le programme avec des appels à fonctionTest en passant successivement de 1 à 10 000 arguments.
 À chaque itération, le programme a exécuté avec succès l'appel de la fonction sans générer d'erreurs.
 
-#Détails de l’Exécution :
+## Détails de l’Exécution :
 
 Chaque appel à fonctionTest(i, i, i, i, i, i, i, i, i, i); (en passant 10 arguments identiques) a réussi sans interruption.
 Des messages de suivi ont été imprimés sur la console à chaque 10 appels, confirmant que le programme fonctionnait correctement.
 
-##Analyse :
+## Analyse :
 
 L'absence d'erreurs peut être due à plusieurs facteurs :
 Capacité de la Machine : Mon ordinateur dispose d'une quantité suffisante de mémoire vive (RAM) pour gérer les appels de fonction multiples.
 Gestion de la Mémoire : Le compilateur C++ que j'utilise gère efficacement les arguments, ce qui permet d'éviter un dépassement de pile dans les limites testées.
 Conception de la Fonction : La fonction est conçue pour accepter des arguments sans traitement spécifique, ce qui réduit la complexité et le risque d'erreurs.
 
-##Conclusion :
+## Conclusion :
 
 Jusqu'à présent, le programme a montré une robustesse à des niveaux d'arguments élevés sans générer d'erreurs. Cela indique que, dans un environnement contrôlé et avec des ressources suffisantes, il est possible d'appeler une fonction avec un grand nombre d'arguments sans problèmes.
 Il serait intéressant de continuer à augmenter le nombre d'arguments ou à modifier la fonction pour effectuer des opérations sur les paramètres, afin d'évaluer comment cela pourrait affecter la stabilité du programme.
